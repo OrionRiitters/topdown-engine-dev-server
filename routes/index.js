@@ -2,7 +2,7 @@ const fastify = require('fastify')({ logger: true });
 const path = require('path')
 
 module.exports = async function (fastify, opts) {
-    fastify.get('/', async (req, res) => {
+    fastify.get('/', async (req, reply) => {
         return { hello: 'routes' }
     })
 

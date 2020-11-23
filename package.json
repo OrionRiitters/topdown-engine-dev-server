@@ -1,0 +1,14 @@
+{
+  "name": "topdown-engine-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.8.0",
+    "fastify-static": "^3.3.0",
+    "pino-pretty": "^4.3.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
